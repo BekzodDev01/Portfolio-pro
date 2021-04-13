@@ -238,6 +238,9 @@ section .title::after{
 .skills .title::after{
     content: "what i know";
 }
+.projects .title::after{
+    content: "what i did";
+}
 .skills .skills-content .column{
     width: calc(50% - 30px);
 }
@@ -308,13 +311,18 @@ section .title::after{
     width: 60%;
 }
 .skills-content .right .animation::before{
-    width: 50%;
+    width: 30%;
 }
 .skills-content .right .jquery::before{
     width: 30%;
 }
-
-/* teams section styling */
+/* Portfolio section styling */
+section .p-container{
+    margin: auto;
+}
+.marg-bottom{
+    margin-bottom: 1.5rem;
+}
 
 /* contact section styling */
 .contact .title::after{
